@@ -19,14 +19,16 @@ After applying feature scaling, input data is provided to the LSTM in streams of
 The loss function used is 'mean_squared_error' and the optimizer used is 'adam'.
 
 
-The model is trained on <b><u>3000 data points</u></b>.
+The model is trained on <b><u>3000 data points</u></b> for 200 epochs with batch size of 256.
+<hr>
 
 # Predictions 
 
 The prediction is made on the data points from 3000 to 4450.<br>
 <img src="airtel2.PNG" width="900" height="200">
+<hr>
 
 # RMSE Score
 
-The rmse score is calculated out to be: 0.33%.<br>
-<img src="airtel3.PNG" width="400" height="200">
+The rmse score is calculated out to be: 0.33%.
+<hr>
