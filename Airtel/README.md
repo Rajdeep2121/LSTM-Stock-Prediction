@@ -29,4 +29,4 @@ The prediction is made on the data points from 3000 to 4450.<br>
 # RMSE Score
 
 The rmse score is calculated out to be: 0.33%.<br>
-<img src="airtel3.PNG" width="900" height="200">
+<img src="airtel3.PNG" width="400" height="200">
