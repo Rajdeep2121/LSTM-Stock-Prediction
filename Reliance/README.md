@@ -4,7 +4,7 @@ An LSTM model is built to predict the opening value of stock prices per hour sin
 
 
 The data is cleaned first to remove all the 'NaN' values. Now the data has 310348 data points. Then a plot is made to visualize the prices from 2000 to 2020.<br> 
-<img src="../pics/rel1.PNG" width="900" height="200"><br>
+<img src="../results/rel1.PNG" width="900" height="200"><br>
 After applying feature scaling, input data is provided to the LSTM in streams of 100 prices at a time.
 <hr>
 
@@ -25,6 +25,6 @@ The model is trained on <b><u>10000 data points</u></b> for 100 epochs with batc
 # Predictions 
 
 The prediction is made on the data points from 10000 to 309300.<br>
-<img src="../pics/rel2.PNG" width="900" height="200">
+<img src="../results/rel2.PNG" width="900" height="200">
 <hr>
 

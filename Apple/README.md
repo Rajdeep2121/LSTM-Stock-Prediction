@@ -4,7 +4,7 @@ An LSTM model is built to predict the opening value of stock prices for each day
 
 
 The data is cleaned first to remove all the 'NaN' values. Now the data has 4822 data points. Then a plot is made to visualize the prices from 2000 to 2020.<br> 
-<img src="../pics/apple1.PNG" width="900" height="200"><br>
+<img src="../results/apple1.PNG" width="900" height="200"><br>
 After applying feature scaling, input data is provided to the LSTM in streams of 50 prices at a time.
 <hr>
 
@@ -25,7 +25,7 @@ The model is trained on <b><u>3000 data points</u></b> for 100 epochs with batch
 # Predictions 
 
 The prediction is made on the data points from 3000 to 4700.<br>
-<img src="../pics/apple2.PNG" width="900" height="200">
+<img src="../results/apple2.PNG" width="900" height="200">
 <hr>
 
 # RMSE Score
